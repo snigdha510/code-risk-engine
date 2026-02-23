@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+networkx
+pyvis
+faiss-cpu
+groq
+requests
+pydantic
