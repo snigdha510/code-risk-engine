@@ -179,12 +179,14 @@ def analyze_specific_function(repo_path: str, target_file: str, target_function:
     )
 
     # 5️⃣ Semantic Retrieval
-    vector_store = VectorStore()
-    vector_store.add_functions(functions)
+    # vector_store = VectorStore()
+    # vector_store.add_functions(functions)
 
-    similar_functions = vector_store.search_similar(
-        target_fn.source_code, top_k=3
-    )
+    # similar_functions = vector_store.search_similar(
+    #     target_fn.source_code, top_k=3
+    # )
+
+    similar_functions = []
 
     # 6️⃣ LLM Decision
     agent = DecisionAgent(call_llm)
