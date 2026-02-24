@@ -9,3 +9,4 @@ requests
 pydantic
 tqdm
 # sentence-transformers
+python-multipart
