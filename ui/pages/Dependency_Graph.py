@@ -4,7 +4,8 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 import os
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://code-risk-backend.onrender.com"
+
 
 st.title("🕸 Dependency Graph")
 

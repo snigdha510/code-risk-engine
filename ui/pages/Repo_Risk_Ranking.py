@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://code-risk-backend.onrender.com"
 
 st.title("📈 Repository Risk Ranking")
 
