@@ -8,3 +8,4 @@ groq
 requests
 pydantic
 tqdm
+sentence-transformers
