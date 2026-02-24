@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://code-risk-backend.onrender.com"
 
 if "repo_path" not in st.session_state:
     st.session_state["repo_path"] = None
