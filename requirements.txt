@@ -3,9 +3,9 @@ uvicorn
 streamlit
 networkx
 pyvis
-faiss-cpu
+# faiss-cpu
 groq
 requests
 pydantic
 tqdm
-sentence-transformers
+# sentence-transformers

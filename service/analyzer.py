@@ -7,7 +7,7 @@ from graph.dependency_builder import (
     compute_dependency_depth,
 )
 from decision.risk_engine import compute_risk_score
-from retrieval.vector_store import VectorStore
+# from retrieval.vector_store import VectorStore
 from decision.llm_agent import DecisionAgent
 from decision.llm_client import call_llm
 
@@ -87,12 +87,14 @@ def analyze_repository(repo_path: str, modified_file: str, modified_line: int):
     # ----------------------------
     # 5️⃣ Semantic Retrieval
     # ----------------------------
-    vector_store = VectorStore()
-    vector_store.add_functions(functions)
+    # vector_store = VectorStore()
+    # vector_store.add_functions(functions)
 
-    similar_functions = vector_store.search_similar(
-        fn.source_code, top_k=3
-    )
+    # similar_functions = vector_store.search_similar(
+    #     fn.source_code, top_k=3
+    # )
+
+    similar_functions = []
 
     # ----------------------------
     # 6️⃣ LLM Decision Agent
